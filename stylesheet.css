@@ -16,7 +16,7 @@ body {
     padding: 20px;
 }
 
-/* অ্যামাজন লোগো স্টাইল */
+/* লোগো স্টাইল */
 .logo {
     font-size: 35px;
     font-weight: bold;
@@ -29,7 +29,7 @@ body {
     background-color: white;
     padding: 20px 26px;
     border: 1px solid #ddd;
-    border-radius: 8px; /* ছবির মতো গোল কোণা */
+    border-radius: 8px; /*গোল কোণা */
     width: 350px;
     box-sizing: border-box;
 }
@@ -84,7 +84,7 @@ input:focus {
     font-size: 16px;
 }
 
-/* ছবির মতো হলুদ বাটন */
+/*হলুদ বাটন */
 button {
     width: 100%;
     background-color: #f7ca00;
@@ -202,3 +202,4 @@ button{
     cursor: pointer;
     border-radius: 3px;
 } */
+
