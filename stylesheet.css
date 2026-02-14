@@ -1,0 +1,204 @@
+/* পুরো পেজের লেআউট ঠিক করা */
+body {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* অ্যামাজন লোগো স্টাইল */
+.logo {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+
+/* প্রধান সাদা ফর্ম বক্স */
+.form-box {
+    background-color: white;
+    padding: 20px 26px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* ছবির মতো গোল কোণা */
+    width: 350px;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 18px;
+}
+
+/* লেবেল এবং ইনপুট ফিল্ড */
+label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    margin-bottom: 14px;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+input:focus {
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgba(228, 121, 17, .5);
+    outline: none;
+}
+
+/* পাসওয়ার্ড ইনফো টেক্সট */
+.info {
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.info span {
+    color: #0066c0;
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 7px;
+    font-size: 16px;
+}
+
+/* ছবির মতো হলুদ বাটন */
+button {
+    width: 100%;
+    background-color: #f7ca00;
+    border: 1px solid #a88734;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #f2c200;
+    border-color: #846a29;
+}
+
+/* লিংক এবং অন্যান্য টেক্সট */
+.terms {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 18px;
+}
+
+a {
+    color: #0066c0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #c45500;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e7e7e7;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.signin {
+    font-size: 13px;
+}
+
+
+/* body{
+    background-color:white;
+    color: black;
+    font-family: 'Courier New',;
+    font-size: 24px;
+    
+}
+container{
+    
+}
+form{
+    background-color: green;
+    font-size: 24px;
+    padding: 2px;
+}
+button{
+    background-color: yellow;
+    color: black;
+    font: strong;
+    
+} */
+/* body{
+
+
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif ;
+} 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-containt: center;
+    align-items: center;
+
+
+ }
+ .logo{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 40px;
+    border: 2px solid;
+    background-color: blanchedalmond;
+ }
+ .form-box{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 350px;
+
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 7px 10px;
+    margin-bottom:10px 15px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    width: 100%;
+    background-color: #04fc6b;
+    border: 1px solid #a88734;
+    padding: 7px 4px;
+    cursor: pointer;
+    border-radius: 3px;
+} */
